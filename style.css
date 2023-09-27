@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./imagens/1695758206161.png);
+    background-color: #191919;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-size: 500px;
+    background-position: 900px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.portfolio span {
+    color: rgb(14, 123, 135);
+
+}
+
+li {
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover{
+    color:rgb(14, 123, 135);
+    transition:0.5s;
+}
+
+.meu-nome {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    font-size: 20px;
+    margin-top: 15%;
+    left: 15%;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 350%;
+}
+
+h1 span{
+    color: rgb(14, 123, 135);
+}
+
+.meu-nome h3 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 120px;
+
+}
+
+section.sobre-mim {
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: black;
+}
+
+section img{
+    height: 500px;
+    border-radius: 100%;
+    border-width: 50%;
+    border: 10px solid rgb(14, 123, 135);
+    margin-right: 40px;
+}
+
+section div h2{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+section div p {
+    color: rgb(161, 195, 199);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+section div button {
+    color: white;
+    background: rgb(14, 123, 135);
+    height: 50px;
+    width: 180px;
+    font-size: 15px;
+    border: none;
+    border-radius: 26px;
+    margin-top: 29px;
+    cursor: pointer;
+
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid rgb(14, 123, 135);
+    transition: 0.5s;
+}
+
+
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DA SESSÃO PROJETOS*/
+section.projetos{
+    padding: 40px 4%;
+    background-color: #191919;
+}
+
+section.projetos .flex{
+    gap: 60px;
+
+}
+
+h2.titulo{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+section.projetos .projetos-box{
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: .2s;
+}
+
+section.projetos .projetos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ffffff75;
+}
+
+
+
+section.projetos .projetos-box i{
+    font-size: 70px;
+    color: rgb(14, 123, 135);
+}
+
+div.flex {
+    display: flex;
+}
+
+section.projetos .projetos-box h3{
+    font-size: 18px;
+    margin: 30px 0;
+  
+}
+
+section.entre-em-contato{
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-color: rgb(14, 123, 135);
+}
+
+section.entre-em-contato h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+section.entre-em-contato p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+section.entre-em-contato ul{
+    text-align: center;
+    margin-left: 35px;
+    font-size: 50px;
+}
+
+section.entre-em-contato i{
+    font-size: 40px;
+    color: white;
+}
+
+section.entre-em-contato i:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ffffff75;
+    transition: .2s;
+    cursor: pointer;
+}
